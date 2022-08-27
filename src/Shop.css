@@ -1,0 +1,46 @@
+
+.container_title{
+    margin-right: 65%;
+    margin-top: 250px;
+    font-size: 4rem;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+.vestidos_container{
+    display: flex;
+    width:50%;
+    margin-top: 5%;
+    margin-left:70px;
+
+}
+
+.denovia{
+    display: flex;
+    flex-direction: row;
+}
+    
+.foto_vestidos{
+    width:800px;
+    height:700px;
+    padding-left: 20px;
+    transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+    transform: scale(0.9);
+}
+.foto_vestidos:hover {
+  transform: scale(1.1);
+  transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
+}
+
+
+.denovia h2{
+    padding: 30px;
+    font-size: 85px;
+    font-style: italic;
+    color:pink;
+}
+
+.denovia p{
+    padding: 40px;
+    font-size: 2rem;
+}
