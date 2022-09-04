@@ -14,5 +14,11 @@ body{
 }
 
 
+@media (max-width:375px){
+  body{
+    height: 4000px;
+  }
+
+}
 
 

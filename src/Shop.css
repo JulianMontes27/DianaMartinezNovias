@@ -1,6 +1,6 @@
 
 .container_title{
-    margin-right: 65%;
+    margin-right:65%;
     margin-top: 250px;
     font-size: 4rem;
     font-style: italic;
@@ -9,38 +9,180 @@
 
 .vestidos_container{
     display: flex;
-    width:50%;
-    margin-top: 5%;
-    margin-left:70px;
-
+    width:100%;
+    margin-top: 5%; 
 }
 
 .denovia{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px;
 }
     
 .foto_vestidos{
-    width:800px;
-    height:700px;
-    padding-left: 20px;
+    padding:20px;
+    width:700px;
+    height:600px;
     transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
     transform: scale(0.9);
 }
 .foto_vestidos:hover {
-  transform: scale(1.1);
+  transform: scale(1.0);
   transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
 }
 
 
 .denovia h2{
-    padding: 30px;
-    font-size: 85px;
+    padding: 40px;
+    font-size: 80px;
     font-style: italic;
     color:pink;
+    padding-top: 80px;
 }
 
 .denovia p{
-    padding: 40px;
+    padding-top: 100px;
     font-size: 2rem;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+@media (max-width:375px){
+
+    .container{
+        padding-top:10px
+    }
+
+    .vestidos_container{
+        margin-top:10px;
+        width: 100%;
+    }
+
+    .container_title{
+        font-size: 2rem;
+        font-style: italic;
+        text-decoration-line: underline;
+        width: 100%;
+        margin-top:37px;
+    }
+
+    .denovia{
+        display: flex;
+        flex-direction: column;
+        padding-left:0 ;       
+        width: 80%;
+        margin-top: 0px;
+        margin-bottom: -100px;
+    }
+
+    .denovia p{
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .denovia h2{
+        font-size: 40px;
+        width: 95%;
+    }
+    .denovia img{
+        max-width:100%;
+        width: 400px;
+        height:300px;
+        padding:35px
+    }
+}
+
+@media(max-width:414px){
+    .container{
+        padding-top:10px
+    }
+
+    .vestidos_container{
+        margin-top:10px;
+        width: 100%;
+    }
+
+    .container_title{
+        font-size: 2rem;
+        font-style: italic;
+        text-decoration-line: underline;
+        width: 100%;
+        margin-top:120px;
+    }
+
+    .denovia{
+        display: flex;
+        flex-direction: column;
+        padding-left:0 ;       
+        width: 80%;
+        margin-top: 0px;
+        margin-bottom: -100px;
+    }
+
+    .denovia p{
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .denovia h2{
+        font-size: 45px;
+        width: 95%;
+    }
+    .denovia img{
+        max-width:100%;
+        width: 500px;
+        height:600px;
+        padding:35px
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        padding-top:10px
+    }
+
+    .vestidos_container{
+        margin-top:10px;
+        width: 100%;
+    }
+
+    .container_title{
+        font-size: 2rem;
+        font-style: italic;
+        text-decoration-line: underline;
+        width: 100%;
+        margin-top:120px;
+    }
+
+    .denovia{
+        display: flex;
+        flex-direction: column;
+        padding-left:0 ;       
+        width: 80%;
+        margin-top: 0px;
+        margin-bottom: -100px;
+    }
+
+    .denovia p{
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .denovia h2{
+        font-size: 45px;
+        width: 95%;
+    }
+    .denovia img{
+        max-width:100%;
+        width: 500px;
+        height:600px;
+        padding:35px
+    }
 }

@@ -19,13 +19,14 @@
 
 @media (max-width:375px){
     .middle_container{
-        position: absolute;
-        top:11%;
+        position:absolute;
         justify-content: center;
         text-align: center;
         width: 100%;
         margin-left:auto;
         margin-right:auto;
+        height: 300px;
+        top: 6%;
     }
 
     .middle_container h1{
@@ -39,20 +40,39 @@
 
 @media (max-width:414px){
     .middle_container{
-        position: absolute;
-        top: 16%;
+        position:absolute;
         justify-content: center;
         text-align: center;
         width: 100%;
         margin-left:auto;
         margin-right:auto;
+        height: 300px;
     }
 
     .middle_container h1{
         font-size: 60px;
     }
     .middle_container h4{
-        font-size: 22px;
+        font-size: 25px;
     }
 
+}
+
+@media(max-width:768px){
+    .middle_container{
+        position:absolute;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left:auto;
+        margin-right:auto;
+        height: 300px;
+    }
+
+    .middle_container h1{
+        font-size: 72px;
+    }
+    .middle_container h4{
+        font-size: 38px;
+    }
 }

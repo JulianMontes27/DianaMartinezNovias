@@ -15,7 +15,7 @@ const Home = () => {
         
         <h4>NOVIAS & ALTA COSTURA</h4>
         
-        <ClickTo mensaje= {'Haz click para ver la colección 2022 '} onClickCollection= {onClickCollection} color='white'/>
+        <ClickTo mensaje= {'Haz click para ver la colección 2022 '} onClickCollection= {onClickCollection} color='purple'/>
         <Shop/>
     </div>
     </>
