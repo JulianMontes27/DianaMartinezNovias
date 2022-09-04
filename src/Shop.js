@@ -36,7 +36,7 @@ const Shop = () => {
   }
 
   return (
-    <div className='container'>
+    <div className='container' style={{width:'100%'}}>
           <h2 
           className='container_title'>
             Nuestros diseños

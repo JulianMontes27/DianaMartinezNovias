@@ -74,11 +74,11 @@
         width: 80%;
         margin-top: 0px;
         margin-bottom: -100px;
+        margin-left:0%
     }
 
     .denovia p{
         padding: 10px;
-        padding-left: 40px;
         font-size: 20px;
         width: 100%;
     }
@@ -152,18 +152,18 @@
     }
 
     .container_title{
-        font-size: 2rem;
+        font-size: 3rem;
         font-style: italic;
         text-decoration-line: underline;
         width: 100%;
-        margin-top:120px;
+        margin-top:175px;
     }
 
     .denovia{
         display: flex;
         flex-direction: column;
         padding-left:0 ;       
-        width: 80%;
+        width: 78%;
         margin-top: 0px;
         margin-bottom: -100px;
     }
@@ -176,13 +176,15 @@
     }
 
     .denovia h2{
-        font-size: 45px;
+        font-size: 65px;
         width: 95%;
     }
     .denovia img{
         max-width:100%;
         width: 500px;
         height:600px;
-        padding:35px
+        padding:35px;
+        margin-left: 4%;
     }
 }
+

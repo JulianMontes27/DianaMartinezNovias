@@ -17,7 +17,7 @@
     font-size: 40px;
 }
 
-@media (max-width:375px){
+@media (max-width:380px){
     .middle_container{
         position:absolute;
         justify-content: center;
@@ -70,9 +70,9 @@
     }
 
     .middle_container h1{
-        font-size: 72px;
+        font-size: 60px;
     }
     .middle_container h4{
-        font-size: 38px;
+        font-size: 28px;
     }
 }
